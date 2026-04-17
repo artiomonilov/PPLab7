@@ -12,8 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
-        <!-- Folosim o versiune recentă de Kotlin, ex. 2.0.0 -->
-        <kotlin.version>2.0.0</kotlin.version>
+        <!-- Actualizat la 2.1.10 pentru suport JDK > 21 -->
+        <kotlin.version>2.1.10</kotlin.version>
     </properties>
 
     <dependencies>

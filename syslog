@@ -1,0 +1,16 @@
+Apr 17 09:12:34 my-pc systemd[1]: Started daemon.
+Apr 17 09:15:30 my-pc MyApp[1024]: Connection established.
+Apr 17 09:15:45 my-pc DatabaseService: Backup completed without PID.
+Apr 17 09:20:10 my-pc MyApp[1024]: User logged in.
+Apr 17 09:25:00 my-pc systemd[1]: Finished daemon.
+Apr 17 09:30:15 my-pc unknown-app: Something happened.
+Apr 17 09:31:12 my-pc NetworkManager[755]: <info>  [1681713072.1234] device (wlan0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 17 09:32:45 my-pc sshd[2214]: Accepted publickey for user from 192.168.1.10 port 54321 ssh2
+Apr 17 09:33:10 my-pc sshd[2214]: pam_unix(sshd:session): session opened for user user by (uid=0)
+Apr 17 09:35:05 my-pc MyApp[1024]: Fetching new updates...
+Apr 17 09:40:22 my-pc DatabaseService: Starting table optimization.
+Apr 17 09:42:00 my-pc cron[899]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 17 09:45:10 my-pc MyApp[1024]: Update failed. Retrying...
+Apr 17 09:46:15 my-pc systemd[1]: Reloading.
+Apr 17 09:50:30 my-pc sshd[2214]: pam_unix(sshd:session): session closed for user user
+Apr 17 09:55:00 my-pc DatabaseService: Optimization completed successfully.
